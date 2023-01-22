@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1000px) {
+  .productImgBox {
+    flex-direction: row;
+  }
+
+  .loginRightBox {
+    padding: 40px 30px 0 30px;
+  }
+
+  .loginRightBox form .formInputs {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 900px;
+  }
+  .products-category ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .loginLeftBox {
+    display: none;
+  }
+  .loginRightBox {
+    margin-bottom: 20px;
+    border: 0;
+  }
+
+  .checkout-desktop {
+    display: none;
+  }
+
+  .cartPageRightSec .card {
+    position: fixed;
+    background-color: rgb(230, 207, 93);
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+  }
+  .checkout-mob {
+    display: block;
+    /* border: 1px solid; */
+  }
+  .checkout-mob .placeOrder {
+    display: flex;
+    justify-content: space-around;
+  }
+  .checkout-mob .placeOrder p {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+/* @media (max-width: 768px) {
+
+  .container {
+    max-width: 900px;
+  }
+} */

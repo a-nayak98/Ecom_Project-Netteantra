@@ -1,0 +1,524 @@
+/* products */
+.productsPage {
+  width: 100%;
+  position: relative;
+  float: left;
+  display: flex;
+  padding: 0.3rem 0.3rem;
+}
+
+.products_leftBox {
+  padding: 0.3rem 0.4rem 0 0.3rem;
+  border: 1px solid rgba(182, 182, 182, 0.247);
+  background: #fff;
+  margin: 0.4rem 0;
+}
+
+.leftBox_heading {
+  padding: 0.3rem 0 0.3rem 0.5rem;
+  border-bottom: 1px solid;
+}
+
+.products-category {
+  padding: 0.3rem 0 0 0.5rem;
+  border-bottom: 1px solid;
+}
+
+.products-category ul {
+  list-style: none;
+  text-align: center;
+}
+
+.products-category ul li {
+  padding: 0.3rem 0;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 13px;
+  transition: all 0.3sec ease-out;
+}
+
+.products-category ul li:hover {
+  color: #f5f5f5;
+  background-color: rgb(77, 74, 74);
+}
+
+.priceRange-box {
+  padding: 0.3rem 0 0 0.5rem;
+}
+
+.priceRange-box-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageMainSec {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin: 30px 0;
+}
+
+/* signCard */
+/* .products-container{
+  width: 95% !important;
+} */
+.product_card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(182, 182, 182, 0.247);
+  border-radius: 10px;
+  margin: 0.4rem 0;
+}
+
+.product-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_card .productImg img {
+  width: 100%;
+}
+
+.productDescription {
+  width: 100%;
+  /* padding: 0 auto; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productDescription h3 {
+  text-transform: capitalize;
+}
+
+.AddToCart_btn {
+  display: block;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.9rem;
+  background-color: #fff;
+  color: #2874f0;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  width: 100%;
+  margin: 0.4rem auto;
+}
+
+.prdt-desc-ratings {
+  color: #fff;
+  width: 70px;
+  background-color: green;
+  border-radius: 0.65rem;
+  padding: 0.15rem 0.3rem;
+  border: none;
+}
+
+.prdt-desc-ratings span {
+  float: right;
+}
+
+.prdt-desc-price {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.prdt-desc-price .mrp {
+  text-decoration: line-through;
+  color: rgb(150, 146, 146);
+  font-weight: 300;
+}
+
+.prdt-desc-price small {
+  color: green;
+  font-weight: 600;
+}
+
+/* cart */
+.cartPage {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.card-container {
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+.cart-card {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 5px;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.cartProductsImage {
+  width: 30%;
+}
+
+.cartProductsImage img {
+  width: 100%;
+}
+
+.cartProductDetails {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.cartprdt_heading {
+  text-transform: capitalize;
+}
+
+.cart-prdt-price {
+  font-size: 1.2rem;
+}
+
+.cartPageLeftSec {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.checkout-mob {
+  display: none;
+}
+
+.btn-remove-item {
+  width: 10%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.productCounter {
+  padding: 0.5rem 0;
+  width: 150px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.productCounter p {
+  margin: 0;
+}
+
+.counterBtn {
+  cursor: pointer;
+  border: 1px solid rgba(238, 238, 238, 0.79);
+  background-color: rgba(238, 238, 238, 0.79);
+  width: 22px;
+  height: 22px;
+  /* font-size: 0.5rem; */
+  border-radius: 50%;
+}
+
+.placeOrder {
+  width: 100%;
+}
+
+.btn_placeOrder {
+  display: block;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgb(211, 128, 2);
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  max-width: 310px;
+  width: fit-content;
+  min-width: 130px;
+  margin: auto 0;
+}
+
+.cartPageRightSec {
+  margin-top: 10px;
+}
+
+/* Style For Single Products */
+.pageMainSec {
+  width: 100%;
+  padding: 0 0.5rem;
+}
+
+.product-img-container {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid rgba(0, 0, 0, 0.135);
+  border-radius: 15px;
+}
+
+.productImgBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.productImgBox .productImg {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.productImgBox .productImg:hover img {
+  border: 2px solid rgba(0, 0, 255, 0.911);
+  border-radius: 0.35rem;
+}
+
+.productImgBox .productImg img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.mainProductImage {
+  width: 100%;
+  height: 100%;
+  padding: 0.9rem 0 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mainProductImage img {
+  width: 100%;
+}
+
+.saveProduct {
+  width: 60px;
+  /* padding: 0.5rem; */
+  text-align: center;
+  border: 1px solid #eee;
+  position: absolute;
+  top: 15px;
+  right: 0;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 60px;
+  cursor: pointer;
+}
+
+.spanText {
+  color: green;
+  font-size: 0.95rem;
+}
+
+.textGrey {
+  color: rgb(114, 111, 111) !important;
+  text-decoration: line-through;
+}
+
+.productHeading {
+  padding-top: 10px;
+}
+
+.productsRatings {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.starRating {
+  background-color: green;
+  color: #fff;
+  /* width: 62px; */
+  border-radius: 22px;
+  /* height: 30px; */
+  padding: 8px 15px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.starRating p {
+  margin: 0;
+}
+
+.productsReviewesSec {
+  width: 100%;
+}
+
+.btnRate {
+  display: block;
+  padding: 0.4rem 0.3rem;
+  font-size: 0.9rem;
+  background-color: #2874f0;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100px;
+}
+
+.buttonsGroup {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.buttonsGroup button {
+  background-color: #ff9f00;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 0.45rem;
+  padding: 1rem 0.5rem;
+  margin-bottom: 10px;
+}
+.buttonsGroup button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bgBuyNow {
+  background-color: #fb641b !important;
+}
+.buttonsGroup button span {
+  color: #fff;
+  font-size: 18px;
+}
+.charge {
+  font-size: 15px !important;
+}
+
+/* Login page Style */
+
+.loginPage {
+  margin: 20px 0;
+}
+
+.loginLeftBox {
+  width: 100%;
+  position: relative;
+  height: 85vh;
+}
+.loginLeftBox-imageOverlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2874f0ab;
+  height: 100%;
+}
+.loginLeftBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.loginLeftBox-overlayItem {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginLeftBox-overlayItem img {
+  width: 30%;
+  height: 15%;
+  /* border: 1px solid red; */
+  object-fit: contain;
+}
+.loginLeftBox-overlayItem h3 {
+  color: #fff;
+  font-size: 18px;
+}
+.loginRightBox {
+  border: 1px solid rgba(0, 0, 255, 0.225);
+  width: 100%;
+  height: 100%;
+  padding: 2rem 3rem 0;
+  /* border: 1px solid red; */
+}
+.loginRightBoxTop {
+  width: 100%;
+  /* text-align: center; */
+}
+.loginBox-heading {
+  width: 100%;
+  text-align: left;
+}
+.loginBox-heading p {
+  width: 100%;
+  text-align: left;
+  margin: 0 !important;
+}
+
+.loginRightBox form {
+  text-align: left;
+}
+.loginRightBox form label {
+  margin-top: 10px;
+}
+.loginRightBoxTop p {
+  text-align: left;
+  margin: 1em 0;
+}
+
+.loginRightBox form .formInputs {
+  border: 1px solid blue;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+}
+.loginRightBox form .formInputs input {
+  width: 100%;
+  border: 0;
+  font-size: 16px;
+}
+
+.loginRightBox form .formInputs input:focus {
+  border: 0;
+  outline: 0;
+}
+
+.loginRightBox form .formInputs span {
+  font-size: 18px;
+  color: blue;
+}
+.loginRightBox button {
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  width: 50%;
+  font-size: 1.1rem;
+  border-radius: 0.45rem;
+  padding: 1rem 0.5rem;
+}
+.btn-signIn {
+  margin: 1em 0 0 0 !important;
+  text-align: left;
+  color: blue;
+  cursor: pointer;
+}
+
+.form-display {
+  display: none;
+}
+.loginRightBoxBottom {
+  display: block;
+}
